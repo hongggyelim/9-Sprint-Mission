@@ -25,7 +25,7 @@ export function ItemEach({ id }) {
 
   useEffect(() => {
     loadEachItem(id);
-  }, []);
+  }, [id]);
 
   if (loading) {
     return <div>Loading...</div>;

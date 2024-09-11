@@ -1,4 +1,3 @@
-import { useEffect } from "react";
 import styles from "../components/styles/Dropdown.module.css";
 export function Dropdown({ isOpen }) {
   return (
